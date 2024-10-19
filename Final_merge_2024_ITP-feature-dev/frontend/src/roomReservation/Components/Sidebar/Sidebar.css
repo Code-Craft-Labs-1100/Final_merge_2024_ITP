@@ -1,0 +1,38 @@
+.bm-menu {
+    background: orange;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    position: fixed;
+    height: 100%;
+   
+  }
+  
+  .bm-item {
+    display: inline-block;
+    color: red;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .bm-item:hover {
+    color: blue;
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left:0 px;
+    top: 30px;
+    
+  }
+  
+  .bm-burger-bars {
+    background: orange;
+  }
+  
+  .bm-cross {
+    background-color: black; 
+  }
+ 
+

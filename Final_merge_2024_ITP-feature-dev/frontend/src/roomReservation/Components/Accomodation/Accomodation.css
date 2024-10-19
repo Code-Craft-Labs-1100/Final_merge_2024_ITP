@@ -1,0 +1,306 @@
+.accomodation-image{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+}
+.home-icon{
+    width: 3%;
+    margin-right: 10px;
+}
+.address-container{
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.8);
+    
+}
+.address-text{
+    font-size: 16px;
+    margin: 0;
+}
+.telephone-icon{
+    width: 3%;
+    margin-right: 10px;
+}
+.telephone-container{
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.8);
+ 
+}
+.address-text{
+    font-size: 16px;
+    margin: 0;
+}
+.About{
+    background-color: azure;
+    position: absolute;
+    top:20%;
+    padding: 20px;
+    left: 20%;
+    z-index: 1;
+    background-color: rgba(240, 248, 255, 0.8);
+}
+
+h2{
+    color: #FF5733;
+}
+
+.luxuryRooms-icon{
+    width: 30%;
+    margin-left: 10px;
+}
+.airConditioning-icon{
+    width: 3%;
+    height: 0.05%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.air-text{
+    margin: 0;
+}
+.Aircondition-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Wifi-container{
+    display: flex;
+    align-items: center;
+}
+.Wifi-text{
+    margin: 0;
+}
+.Wifi-icon{
+    width: 3%;
+    height:0.05%;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.luxuryRoom-container{
+    display: flex;
+    align-items: top;
+    position: relative;
+    height: 50%;
+    
+}
+.Room-title{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+.room-button {
+    background-color: #FF5733; /* Match with heading color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Space above the button */
+    position: absolute;
+    top:10%;
+    left:31.5%;
+
+}
+.button{
+    height: 100%;
+}
+
+.room-button:hover {
+    background-color: #e04e30; /* Darker shade on hover */
+}
+
+.room-button2{
+    position: absolute;
+    top:10%;
+    left:50%;
+    background-color: white; /* Match with heading color */
+    color: black; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; 
+}
+.Description{
+    position: absolute;
+    top:32%;
+    left:32%;
+}
+.Description2{
+    position: absolute;
+    top:32%;
+    left:37%;
+}
+.Description3{
+    position: absolute;
+    top: 32%;
+    left: 39%;
+    
+}
+.Description4{
+    position: absolute;
+    top: 50%;
+    left:32%;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #FF5733;
+}
+
+.Description5{
+    position: absolute;
+    top: 70%;
+    left: 32%;
+}
+
+.Description6{
+    position: absolute;
+    top: 70%;
+    left:65%;
+    font-size: 24px;
+}
+
+.Teacupimage2{
+  
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    height: 5%;
+    width: 5%;
+
+}
+
+.Description7{
+    position: absolute;
+    top: 79%;
+    left: 34%;
+}
+.Description8{
+    position: absolute;
+    top: 79%;
+    left: 65%;
+}
+
+.Description9{
+    position: absolute;
+    top: 87%;
+    left: 32%;
+}
+.Room-booking{
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    background-color: #0a0a23; /* Change this to your desired background color */
+    color: #ffffff; /* Change this to your desired text color */
+    border: none; /* Optional: remove border */
+    padding: 10px 20px; /* Optional: add some padding */
+    border-radius: 5px; /* Optional: round the corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+.LuxuryRooms{
+    border: 2px solid #007BFF; /* Change this to your desired color */
+    border-radius: 8px; /* Optional: round the corners */
+    padding: 15px; /* Optional: add some padding inside */
+    margin-bottom: 20px;
+}
+.SuiteRooms{
+    border: 2px solid #007BFF; /* Change this to your desired color */
+    border-radius: 8px; /* Optional: round the corners */
+    padding: 15px; /* Optional: add some padding inside */
+    margin-bottom: 20px;
+}
+
+.PremiumRooms{
+
+    border: 2px solid #007BFF; /* Change this to your desired color */
+    border-radius: 8px; /* Optional: round the corners */
+    padding: 15px; /* Optional: add some padding inside */
+    margin-bottom: 20px;
+
+}
+.edit{
+    background-color: #FF5733; /* Match with heading color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 10px; /* Space above the button */
+    position: absolute;
+    top:50%;
+    left:2%;
+
+}
+
+
+.booking-details-editor {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limit the width */
+    margin: auto; /* Center the component */
+}
+
+h3 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker text color */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between label and input/button */
+    margin-bottom: 15px; /* Space between input groups */
+}
+
+.label {
+    flex-basis: 40%; /* Space for labels */
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.button-group button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 4px; /* Rounded button corners */
+    padding: 5px 10px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button-group button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+input[type="date"],
+input[type="text"] {
+    border-radius: 4px; /* Rounded corners for inputs */
+    border: 1px solid #ccc; /* Light border */
+    padding: 8px; /* Input padding */
+    width: calc(60% - 10px); /* Responsive width for inputs */
+}
+
+.save-button {
+    background-color: #28a745; /* Success button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%; /* Full width for save button */
+}
+
+.save-button:hover {
+    background-color: #218838; /* Darker shade on hover for save button */
+}
+
+

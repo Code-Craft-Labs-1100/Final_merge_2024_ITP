@@ -1,0 +1,75 @@
+.video-container {
+  position: relative; /* Make the container relative */
+  width: 100%; /* Full width */
+}
+
+.video {
+  width: 100%; /* Make video responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.input-overlay {
+  position: absolute; /* Position overlay absolutely */
+  top: 80%; /* Adjust vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  width: calc(100% - 40px); /* Width of the input container with padding */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  padding: 20px; /* Padding around inputs */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.2); /* Shadow for depth */
+}
+
+.input-overlay .row {
+  margin-bottom: 15px; /* Space between rows */
+}
+
+.label {
+ font-weight: bold; /* Bold labels for better visibility */
+ margin-bottom: .5rem; /* Space below labels */
+}
+
+.form-control {
+ border-radius: .5rem; /* Rounded corners for inputs */
+ border: none; /* Remove default border */
+ box-shadow: inset 0px 1px 3px rgba(0,0,0,.1); /* Subtle inner shadow */
+ padding: .5rem; /* Padding inside inputs */
+}
+
+.guest-input {
+ text-align: center; /* Center text in guest inputs */
+ width: auto; /* Auto width for guest inputs based on content */
+ border-radius: .5rem; /* Rounded corners for guest input fields */
+}
+
+.btn-outline-secondary {
+ border-radius: .5rem; /* Rounded corners for buttons */
+ margin-right: .5rem; /* Space between buttons and inputs */
+}
+
+.booknow {
+ width: calc(100% - (2 * .5rem)); /* Full width minus margins for button */
+ padding: .75rem; /* Padding for button */
+ font-size: larger; /* Larger font size for emphasis */
+}
+
+.booknow:hover {
+ background-color: #0056b3; /* Darker shade on hover for book now button */
+}
+
+/* Optional styling for input placeholders to be more visible */
+input::placeholder {
+ color: #999; /* Placeholder color */
+ opacity: .8; /* Slightly transparent placeholder text */
+}
+
+#checkin{
+  width: 70%;
+}
+#checkout{
+  width: 70%;
+}
+
+#promoCode{
+  width: 100%;
+}

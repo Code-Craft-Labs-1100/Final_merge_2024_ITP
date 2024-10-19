@@ -1,0 +1,299 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .checkout-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Checkout Form Styles */
+  .checkout-form {
+    width: 60%;
+    padding-right: 40px;
+  }
+  
+  .checkout-title {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .contact-info h2,
+  .checkout-form h2 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin: 25px 0 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .form-group:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #34495e;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  .confirm-booking {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .confirm-booking:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Booking Summary Styles */
+  .booking-summary {
+    width: 35%;
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .booking-summary h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .total-price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .booking-details {
+    margin-top: 25px;
+    border: 2px solid #bdc3c7;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  
+  .booking-details p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .booking-details strong {
+    color: #34495e;
+  }
+  
+  /* Button Styles */
+  .back-button,
+  .edit-button,
+  .remove-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: #3498db;
+    transition: color 0.3s ease;
+  }
+  
+  .back-button:hover,
+  .edit-button:hover,
+  .remove-button:hover {
+    color: #2980b9;
+  }
+  
+  .back-button::before {
+    content: '←';
+    margin-right: 8px;
+  }
+  
+  .edit-button,
+  .remove-button {
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+  
+  .remove-button {
+    color: #e74c3c;
+    border-color: #e74c3c;
+  }
+  
+  .remove-button:hover {
+    color: #c0392b;
+  }
+  
+  /* Payment Section Styles */
+  .card-types {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .card-types img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .checkout-container {
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    .checkout-form,
+    .booking-summary {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+  }
+
+  #firstName{
+    width: 100%;
+  }
+  #lastName{
+    width: 100%;
+  }
+  #address1{
+    width: 100%;
+  }
+  #city{
+    width: 100%;
+  }
+  #zipCode{
+    width: 92%;
+  }
+
+  input, textarea, select {
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    padding: 14px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+    transform: scale(1.02);
+  }
+  
+
+  .policies-acknowledgement {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    
+  }
+  
+  .policies-acknowledgement h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  
+  .policy-item h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+    color: #34495e;
+  }
+  
+  .policy-item p {
+    margin: 0 0 15px;
+    color: #7f8c8d;
+  }
+  
+  .acknowledgement p {
+    margin: 10px 0;
+    color: #34495e;
+    line-height: 1.5;
+  }
+  
+  .newsletter-optin {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .newsletter-optin input {
+    margin-right: 10px;
+  }
+  
+  .privacy-consent {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between the checkbox and label */
+    margin-top: 1rem;
+  }
+  .privacy-consent input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+  .newsletter-optin {
+    margin-bottom: 1rem;
+  }
